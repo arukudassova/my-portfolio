@@ -95,7 +95,7 @@ export default function App() {
           <div className="footerBio">
             <p style={{ fontFamily: 'var(--serif)', fontStyle: 'italic' }}>Thanks for stopping by!</p>
             <p></p>
-            <a href="mailto:arukudass@gmail.com" className="footerLink">CONTACT ME</a>
+            <a href="mailto:arukudass@gmail.com" className="footerLink">CONTACT ME HERE</a>
           </div>
         </div>
       </footer>
