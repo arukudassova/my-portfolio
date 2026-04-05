@@ -5,7 +5,7 @@ Personal portfolio built with **React** and **Vite**.
 Showcases my work as a Computer Science student at Minerva University — projects, cities I've lived in, and a bit of who I am outside of tech.
 
 ### Live site
-👉 https://arukudassova.vercel.app
+https://arukudassova.vercel.app
 
 ### Tech stack
 - React 19
