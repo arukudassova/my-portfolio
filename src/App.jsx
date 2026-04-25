@@ -35,7 +35,7 @@ export default function App() {
         <h1 className="profileName">Aru Kudassova</h1>
         <div className="profilePhoto" />
         <div className="profileBioBox">
-          <p>Hello! I'm an Environmental Science and Computer Science undergraduate at Minerva University with a strong interest in environmental systems, research, and product-driven problem-solving. My academic and professional journey has been shaped by active immersion in global contexts across the U.S., East Asia, and Latin America, where I have collaborated with teams in energy research, regulatory compliance, and urban planning to apply technology to more resilient systems.</p>
+          <p>Hello! I'm an Environmental Science and Computer Science undergraduate at Minerva University. Minerva's global rotation model has allowed me to gain hands-on industry experience early in my academic career – collaborating with teams in energy research, urban infrastructure, and climate resilience across the U.S., East Asia, and Latin America, applying data and digital tools to real environmental systems.</p>
           <p>As I explore the world, I'm also exploring more about myself – which I love to express through my creative work: newsletter, art, and more.</p>
           <p>See a snapshot of my highlighted experiences below!</p>
         </div>
