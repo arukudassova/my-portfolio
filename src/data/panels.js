@@ -2,7 +2,7 @@
 export const education = [
   {
     school: "Minerva University",
-    location: "San Francisco, CA",
+    location: "San Francisco, CA · 2023–2027",
     degree: "B.S. in Environmental Science and Computer Science",
     note: "Global education across 7 countries — the U.S., South Korea, Taiwan, Argentina, Germany, Japan, and India\nAssistant to the Academic Provost\nEditor-in-Chief, Tellus Mater — Minerva's sustainability newsletter",
   },
@@ -14,28 +14,31 @@ export const experience = [
     title: "Research & Development Intern",
     org: "Asociación Sustentar",
     period: "Oct 2025 – Apr 2026 · Buenos Aires, Argentina",
+    description: "Urban Mobility Systems Research and Development Team",
   },
   {
     title: "STEM Program Instructor",
-    org: "Lavner Education · University of San Diego",
+    org: "Lavner Education",
     period: "Jun 2025 – Aug 2025 · San Diego, CA",
+    description: "University of San Diego Campus · Applied Computing Education: Python, Space Exploration, 3D Modeling & Printing (AutoCAD, Cura), Graphic Design, App Development (MIT App Inventor)",
   },
   {
     title: "Research Assistant",
     org: "A-Labs",
     period: "Jan 2025 – Apr 2025 · Seoul, South Korea",
-    description: "Co-Curricular Project with Minerva University",
+    description: "Co-Curricular Project with Minerva University · Korea Institute of Science and Technology · Carbon Capture, Storage and Utilization Systems (CCUS) Research Team",
   },
   {
     title: "Payment Solutions Intern",
     org: "Mastercard Kazakhstan",
     period: "Jun 2024 – Aug 2024 · Almaty, Kazakhstan",
+    description: "Mentorship under the Director of Government Business Development Division",
   },
   {
     title: "Community Outreach & Research Intern",
     org: "Gensler",
     period: "Oct 2023 – Apr 2024 · San Francisco, CA",
-    description: "Co-Curricular Project with Minerva University",
+    description: "Co-Curricular Project with Minerva University · Climate Risk Assessment Research and Development",
   },
 ];
 

@@ -2,11 +2,11 @@ import { useState, useEffect } from "react";
 
 const photos = [
   { src: "/globe/taipei.jpg", alt: "Taipei, Taiwan" },
-  { src: "/globe/sandiego.jpg", alt: "San Diego, USA" },
+  { src: "/globe/sandiego.jpg", alt: "San Diego, CA" },
   { src: "/globe/aconcagua.jpg", alt: "Mendoza, Argentina" },
-  { src: "/globe/lakeisland.jpg", alt: "Lake Island" },
+  { src: "/globe/lakeisland.jpg", alt: "Thousand Island Lake, Taiwan" },
   { src: "/globe/rio.jpg", alt: "Rio de Janeiro, Brazil" },
-  { src: "/globe/incas.jpg", alt: "Inca Trail" },
+  { src: "/globe/incas.jpg", alt: "Puente del Inca, Argentina" },
 ];
 
 const GROUP_SIZE = 3;
@@ -41,9 +41,7 @@ export default function HeroSlideshow() {
     <div className="heroPhotoRow">
       {groups[current].map((photo, i) => (
         <div key={i} className="heroPhotoSlot">
-          {/* current group — stays visible underneath */}
           <img src={photo.src} alt={photo.alt} className="heroPhotoImg heroPhotoCurrent" />
-          {/* next group — fades in on top */}
           {next !== null && (
             <img
               src={groups[next][i].src}
@@ -51,6 +49,10 @@ export default function HeroSlideshow() {
               className="heroPhotoImg heroPhotoNext"
               style={{ animationDelay: delays[i] }}
             />
+          )}
+          <span className="heroPhotoLocation" style={{ opacity: next !== null ? 0 : 1, transition: "opacity 0.4s ease" }}>{photo.alt}</span>
+          {next !== null && (
+            <span className="heroPhotoLocation" style={{ opacity: 0, animation: `photoFadeIn 1.4s ease ${delays[i]} forwards` }}>{groups[next][i].alt}</span>
           )}
         </div>
       ))}
