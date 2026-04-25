@@ -16,7 +16,7 @@ for (let i = 0; i < photos.length; i += GROUP_SIZE) {
 }
 
 // order: middle (1) → left (0) → right (2), uniform 1.4s gap
-const delays = ["1.4s", "0s", "2.8s"];
+const delays = ["0.7s", "0s", "1.4s"];
 
 export default function HeroSlideshow() {
   const [current, setCurrent] = useState(0);
@@ -32,8 +32,8 @@ export default function HeroSlideshow() {
         setCurrent(nextIdx);
         setNext(null);
       // last photo finishes at 2.8s delay + 1.4s fade = 4.2s
-      }, 4400);
-    }, 5500);
+      }, 2100);
+    }, 3500);
     return () => clearInterval(timer);
   }, [current]);
 
@@ -50,9 +50,9 @@ export default function HeroSlideshow() {
               style={{ animationDelay: delays[i] }}
             />
           )}
-          <span className="heroPhotoLocation" style={{ opacity: next !== null ? 0 : 1, transition: "opacity 0.4s ease" }}>{photo.alt}</span>
+          <span className="heroPhotoLocation" style={{ opacity: next !== null ? 0 : 1 }}>{photo.alt}</span>
           {next !== null && (
-            <span className="heroPhotoLocation" style={{ opacity: 0, animation: `photoFadeIn 1.4s ease ${delays[i]} forwards` }}>{groups[next][i].alt}</span>
+            <span className="heroPhotoLocation" style={{ opacity: 0, animation: `photoFadeIn 0.7s ease ${delays[i]} forwards` }}>{groups[next][i].alt}</span>
           )}
         </div>
       ))}
