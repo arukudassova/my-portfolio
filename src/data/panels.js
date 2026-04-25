@@ -1,3 +1,44 @@
+// Education
+export const education = [
+  {
+    school: "Minerva University",
+    location: "San Francisco, CA",
+    degree: "B.S. in Environmental Science and Computer Science",
+    note: "Global education across 7 countries — the U.S., South Korea, Taiwan, Argentina, Germany, Japan, and India\nAssistant to the Academic Provost\nEditor-in-Chief, Tellus Mater — Minerva's sustainability newsletter",
+  },
+];
+
+// Highlighted Experience
+export const experience = [
+  {
+    title: "Research & Development Intern",
+    org: "Asociación Sustentar",
+    period: "Oct 2025 – Apr 2026 · Buenos Aires, Argentina",
+  },
+  {
+    title: "STEM Program Instructor",
+    org: "Lavner Education · University of San Diego",
+    period: "Jun 2025 – Aug 2025 · San Diego, CA",
+  },
+  {
+    title: "Research Assistant",
+    org: "A-Labs",
+    period: "Jan 2025 – Apr 2025 · Seoul, South Korea",
+    description: "Co-Curricular Project with Minerva University",
+  },
+  {
+    title: "Payment Solutions Intern",
+    org: "Mastercard Kazakhstan",
+    period: "Jun 2024 – Aug 2024 · Almaty, Kazakhstan",
+  },
+  {
+    title: "Community Outreach & Research Intern",
+    org: "Gensler",
+    period: "Oct 2023 – Apr 2024 · San Francisco, CA",
+    description: "Co-Curricular Project with Minerva University",
+  },
+];
+
 // City data for the About section horizontal cards
 
 export const cities = [

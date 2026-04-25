@@ -4,8 +4,9 @@ export default function NavBar() {
       <div className="navLeft" />
       <div className="navCenter">
         <a href="#about" className="navLink">About</a>
-        <a href="#projects" className="navLink">Projects</a>
-        <a href="#outside" className="navLink">More</a>
+        <a href="#education" className="navLink">Education</a>
+        <a href="#experience" className="navLink">More</a>
+        <a href="#gallery" className="navLink">Gallery</a>
       </div>
       <div className="navRight">
         <a href="https://www.linkedin.com/in/akudassova" target="_blank" rel="noopener noreferrer" className="navIcon" aria-label="LinkedIn">
