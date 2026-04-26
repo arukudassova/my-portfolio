@@ -7,6 +7,9 @@ const photos = [
   { src: "/globe/lakeisland.jpg", alt: "Thousand Island Lake, Taiwan" },
   { src: "/globe/rio.jpg", alt: "Rio de Janeiro, Brazil" },
   { src: "/globe/incas.jpg", alt: "Puente del Inca, Argentina" },
+  { src: "/globe/chichenitza.jpg", alt: "Chichen Itza, Mexico" },
+  { src: "/globe/almaty.jpg", alt: "Almaty, Kazakhstan" },
+  { src: "/globe/kz.jpg", alt: "Almaty, Kazakhstan" }
 ];
 
 const GROUP_SIZE = 3;

@@ -1,12 +1,10 @@
 import { useState, useEffect } from "react";
 import NavBar from "./components/NavBar";
 import HeroSlideshow from "./components/HeroSlideshow";
-import CityModal from "./components/CityModal";
 import GalleryLightbox from "./components/GalleryLightbox";
 import { projects, artworks, newsletter, education, experience } from "./data/panels";
 
 export default function App() {
-  const [activeCity, setActiveCity] = useState(null);
   const [galleryOpen, setGalleryOpen] = useState(false);
 
   useEffect(() => {
@@ -93,7 +91,7 @@ export default function App() {
       {/* Art Gallery Strip */}
       {artworks.length > 0 && (
         <section className="galleryStrip" id="gallery" onClick={() => setGalleryOpen(true)}>
-          {[...artworks, ...artworks].map((art, i) => (
+          {artworks.slice(0, 6).map((art, i) => (
             <div
               key={i}
               className="galleryStripItem"
@@ -106,10 +104,7 @@ export default function App() {
         </section>
       )}
 
-      {activeCity && (
-        <CityModal cityId={activeCity} onClose={() => setActiveCity(null)} />
-      )}
-      {galleryOpen && artworks.length > 0 && (
+{galleryOpen && artworks.length > 0 && (
         <GalleryLightbox artworks={artworks} onClose={() => setGalleryOpen(false)} />
       )}
 

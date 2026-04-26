@@ -1,12 +1,32 @@
+import { useState, useEffect } from "react";
+
+const sections = ["about", "education", "experience", "gallery"];
+
 export default function NavBar() {
+  const [active, setActive] = useState("");
+
+  useEffect(() => {
+    const observers = sections.map((id) => {
+      const el = document.getElementById(id);
+      if (!el) return null;
+      const obs = new IntersectionObserver(
+        ([entry]) => { if (entry.isIntersecting) setActive(id); },
+        { rootMargin: "-40% 0px -55% 0px" }
+      );
+      obs.observe(el);
+      return obs;
+    });
+    return () => observers.forEach((o) => o?.disconnect());
+  }, []);
+
   return (
     <nav className="nav">
       <div className="navLeft" />
       <div className="navCenter">
-        <a href="#about" className="navLink">About</a>
-        <a href="#education" className="navLink">Education</a>
-        <a href="#experience" className="navLink">More</a>
-        <a href="#gallery" className="navLink">Gallery</a>
+        <a href="#about" className={`navLink${active === "about" ? " navLinkActive" : ""}`}>About</a>
+        <a href="#education" className={`navLink${active === "education" ? " navLinkActive" : ""}`}>Education</a>
+        <a href="#experience" className={`navLink${active === "experience" ? " navLinkActive" : ""}`}>More</a>
+        <a href="#gallery" className={`navLink${active === "gallery" ? " navLinkActive" : ""}`}>Gallery</a>
       </div>
       <div className="navRight">
         <a href="https://www.linkedin.com/in/akudassova" target="_blank" rel="noopener noreferrer" className="navIcon" aria-label="LinkedIn">
