@@ -25,7 +25,7 @@ export default function NavBar() {
       <div className="navCenter">
         <a href="#about" className={`navLink${active === "about" ? " navLinkActive" : ""}`}>About</a>
         <a href="#education" className={`navLink${active === "education" ? " navLinkActive" : ""}`}>Education</a>
-        <a href="#experience" className={`navLink${active === "experience" ? " navLinkActive" : ""}`}>More</a>
+        <a href="#experience" className={`navLink${active === "experience" ? " navLinkActive" : ""}`}>Experience</a>
         <a href="#gallery" className={`navLink${active === "gallery" ? " navLinkActive" : ""}`}>Gallery</a>
       </div>
       <div className="navRight">

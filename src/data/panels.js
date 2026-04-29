@@ -62,18 +62,17 @@ export const projects = [
 
 // Art gallery
 export const artworks = [
-  { src: "/art/1.jpg", title: "" },
-  { src: "/art/2.jpg", title: "" },
-  { src: "/art/3.jpeg", title: "" },
-  { src: "/art/5.png", title: "" },
-  { src: "/art/april.png", title: "" },
-  { src: "/art/audrey.JPG", title: "" },
-  { src: "/art/girl.JPG", title: "" },
-  { src: "/art/june2020.PNG", title: "" },
-  { src: "/art/sketch.jpg", title: "" },
-  { src: "/art/natalie.jpg", title: "" },
-  { src: "/art/mountains.jpg", title: "" },
-  { src: "/art/sketchpencil.jpg", title: "" }
+  { src: "/art/1.jpg", title: "", tool: "gouache and watercolor on paper", year: 2019 },
+  { src: "/art/2.jpg", title: "", year: 2019 },
+  { src: "/art/3.jpeg", title: "", tool: "oil on canvas", year: 2021 },
+  { src: "/art/5.png", title: "", tool: "digital", year: 2019 },
+  { src: "/art/april.png", title: "April cover", tool: "digital", year: 2019 },
+  { src: "/art/audrey.JPG", title: "Audrey", tool: "digital", year: 2020 },
+  { src: "/art/girl.JPG",   title: "", tool: "digital", year: 2020 },
+  { src: "/art/sketch.jpg", title: "", tool: "pencil", year: 2019 },
+  { src: "/art/natalie.jpg", title: "Keira", tool: "pencil", year: 2020 },
+  { src: "/art/mountains.jpg", title: "summer", tool: "oil on canvas", year: 2021 },
+  { src: "/art/sketchpencil.jpg", title: "", tool: "pencil", year: 2019 }
 ];
 
 // Newsletter
