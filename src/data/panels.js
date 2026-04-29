@@ -14,31 +14,31 @@ export const experience = [
     title: "Research & Development Intern",
     org: "Asociación Sustentar",
     period: "Oct 2025 – Apr 2026 · Buenos Aires, Argentina",
-    description: "Urban Mobility Systems Research and Development Team",
+    description: "Researched urban mobility and infrastructure systems across Latin American cities, synthesizing policy and technical sources to identify implementation pathways for sustainable logistics. Built a diagnostic platform to automate infrastructure assessment and generate data-driven insights for city planners.",
   },
   {
     title: "STEM Program Instructor",
     org: "Lavner Education",
     period: "Jun 2025 – Aug 2025 · San Diego, CA",
-    description: "University of San Diego Campus · Applied Computing Education: Python, Space Exploration, 3D Modeling & Printing (AutoCAD, Cura), Graphic Design, App Development (MIT App Inventor)",
+    description: "Delivered project-based STEM instruction in coding, space exploration, robotics, 3D modeling and printing, graphic design, and app development to 100+ K–12 students at the University of San Diego campus, adapting content across diverse skill levels and facilitating a live classroom environment.",
   },
   {
     title: "Research Assistant",
     org: "A-Labs",
     period: "Jan 2025 – Apr 2025 · Seoul, South Korea",
-    description: "Co-Curricular Project with Minerva University · Korea Institute of Science and Technology ·  Carbon Capture, Storage and Utilization Systems (CCUS) research team under close mentorship of Dr. Namju Lee & Bosung Kim",
+    description: "As part of the Carbon Capture, Storage, and Utilization Systems (CCUS) research team guided by Dr. Namju Lee and Bosung Kim at A-Labs, I supported process monitoring and data analysis for carbon capture solvent regeneration research at KIST, tracking chemical reactions across 500+ experimental runs and analyzing pH and conductivity data to validate process stability and support scale-up documentation.",
   },
   {
     title: "Payment Solutions Intern",
     org: "Mastercard Kazakhstan",
     period: "Jun 2024 – Aug 2024 · Almaty, Kazakhstan",
-    description: "Mentorship under the Director of Government Business Development Division",
+    description: "Under the mentorship of Assel Abdrakhmanova, Director of Government Business Development at Mastercard Kazakhstan, I conducted market research and 25+ stakeholder interviews to identify barriers to digital payment adoption in Kazakhstan's gig economy, translating findings into strategic recommendations and presenting an optimization roadmap to cross-functional leadership.",
   },
   {
     title: "Community Outreach & Research Intern",
     org: "Gensler",
     period: "Oct 2023 – Apr 2024 · San Francisco, CA",
-    description: "Co-Curricular Project with Minerva University · Climate Risk Assessment Research and Development",
+    description: "As part of a Minerva University co-curricular project with Gensler's San Francisco team, I conducted GIS-based climate risk assessments and led 15+ stakeholder interviews with Bay Area small businesses to inform the development of a climate resilience platform integrating risk tools and curated resources.",
   },
 ];
 

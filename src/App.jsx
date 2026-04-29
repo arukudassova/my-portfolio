@@ -31,11 +31,14 @@ export default function App() {
       {/* Profile */}
       <section className="profileSection fadeUp" id="about">
         <h1 className="profileName">Aru Kudassova</h1>
-        <div className="profilePhoto" />
-        <div className="profileBioBox">
-          <p>Hello! I'm an Environmental Science and Computer Science undergraduate at Minerva University. Minerva's global rotation model has allowed me to gain hands-on industry experience early in my academic career – collaborating with teams in energy research, urban infrastructure, and climate resilience across the U.S., East Asia, and Latin America, applying data and digital tools to real environmental systems.</p>
-          <p>As I explore the world, I'm also exploring more about myself – which I love to express through my creative work: newsletter, art, and more.</p>
-          <p>See a snapshot of my highlighted experiences below!</p>
+        <div className="profileRow">
+          <div className="profileBioBox">
+            <p>Hello, my name is Aru, I'm an Environmental Science and Computer Science undergraduate at Minerva University in San Francisco, CA.</p>
+            <p>Minerva's global rotation model has allowed me to gain hands-on industry experience early in my academic journey – collaborating with teams in energy research, urban infrastructure, and climate resilience across the U.S., East Asia, and Latin America, applying data and digital tools to real environmental systems.</p>
+            <p>As I explore the world, I'm also exploring more about myself – which I love to express through my creative work: newsletter, art, and more.</p>
+            <p>See a snapshot of my highlighted experiences below!</p>
+          </div>
+          <div className="profilePhoto" />
         </div>
       </section>
 
