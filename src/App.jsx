@@ -93,6 +93,11 @@ export default function App() {
 
       {/* Art Gallery Strip */}
       {artworks.length > 0 && (
+        <>
+        <div className="magSectionInner" style={{ marginBottom: "20px" }}>
+          <h2 className="magSectionTitle">my gallery</h2>
+          <div className="magDivider" />
+        </div>
         <section className="galleryStrip" id="gallery" onClick={() => setGalleryOpen(true)}>
           {artworks.slice(0, 6).map((art, i) => (
             <div
@@ -102,9 +107,10 @@ export default function App() {
             />
           ))}
           <div className="galleryStripOverlay">
-            <span>view my art gallery →</span>
+            <span>get a glimpse of my world →</span>
           </div>
         </section>
+        </>
       )}
 
 {galleryOpen && artworks.length > 0 && (

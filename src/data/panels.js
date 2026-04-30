@@ -14,7 +14,7 @@ export const experience = [
     title: "Research & Development Intern",
     org: "Asociación Sustentar",
     period: "Oct 2025 – Apr 2026 · Buenos Aires, Argentina",
-    description: "Researched urban mobility and infrastructure systems across Latin American cities, synthesizing policy and technical sources to identify implementation pathways for sustainable logistics. Built a diagnostic platform to automate infrastructure assessment and generate data-driven insights for city planners.",
+    description: "Researched urban mobility and infrastructure systems across Latin American cities, synthesizing policy and technical sources to identify implementation pathways for sustainable logistics. Built a diagnostic platform to automate infrastructure assessment and generate data-driven insights for city planners. Supported capacity building by moderating TUMI courses on FutureLearn - \"Introduction to Transport Planning for Sustainable Cities\" and \"Gender and Mobility\" - targeting audiences from the Global South.",
   },
   {
     title: "STEM Program Instructor",

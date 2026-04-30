@@ -434,6 +434,7 @@ a:hover { opacity: 0.7; }
 }
 
 /* Gallery Strip */
+
 .galleryStrip {
   position: relative;
   display: flex;
